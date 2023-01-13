@@ -51,13 +51,10 @@ function getCircleCircumference(radius) {
  *  -3, 3  => 0
  */
 function getAverage(value1, value2) {
-  // eslint-disable-next-line no-undef
   const bigV1 = BigInt(value1);
-  // eslint-disable-next-line no-undef
   const bigV2 = BigInt(value2);
 
   const sum = bigV1 + bigV2;
-  // eslint-disable-next-line no-undef
   const avr = sum / BigInt(2);
   return Number(avr);
 }
